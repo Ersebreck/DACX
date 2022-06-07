@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python abr.py --batch-size 100 --name EFF_radam_bce_best --net eff --opt radam --criterion bce
